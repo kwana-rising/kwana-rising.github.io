@@ -66,6 +66,10 @@ Default CSS
   --transition: 0.5s;
 }
 
+::selection {
+  background-color: #ff980044;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -2048,7 +2052,6 @@ Navbar Area CSS
   }
   .dibiz-responsive-nav .dibiz-responsive-menu.mean-container .navbar-nav {
     overflow-y: scroll;
-    height: 357px;
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
   }

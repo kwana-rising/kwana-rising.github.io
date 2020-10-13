@@ -2474,9 +2474,9 @@ Main Banner Area CSS
 .main-banner-image {
   height: 100%;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../img/banner-img1.jpg);
+  background-image: url(../img/introduction.png);
 }
 
 .main-banner-image img {
@@ -4215,9 +4215,9 @@ About Area CSS
   height: 100%;
   margin-right: 20px;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../img/about-img1.jpg);
+  background-image: url(../img/introduction-team.jpg);
 }
 
 .about-image img {

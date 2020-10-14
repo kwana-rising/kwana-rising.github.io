@@ -2137,7 +2137,7 @@ Navbar Area CSS
   }
   .dibiz-responsive-nav .logo {
     position: relative;
-    width: 60%;
+    width: 20%;
     z-index: 999;
   }
   .dibiz-nav {
@@ -11570,7 +11570,7 @@ Sidebar Modal CSS
   margin-right: 0;
 }
 
-@media (max-width:991px) {
+@media (max-width:400px) {
   .subh {
     margin-left: 0% !important; 
   }

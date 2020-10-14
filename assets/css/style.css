@@ -11570,7 +11570,7 @@ Sidebar Modal CSS
   margin-right: 0;
 }
 
-@media (max-width:400px) {
+@media (max-width:991px) {
   .subh {
     margin-left: 0% !important; 
   }

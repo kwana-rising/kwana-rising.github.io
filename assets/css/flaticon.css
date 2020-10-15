@@ -162,3 +162,10 @@ Flaticon icon font: Flaticon
 .flaticon-social-handles {
   content: url("../img/icons/social-media.svg");
 }
+
+.flaticon-360-marketing {
+  content: url("../img/icons/affiliate-marketing.svg");
+}
+.flaticon-web-devlopment {
+  content: url("../img/icons/code.svg");
+}

@@ -2,5 +2,6 @@ User-agent: *
 Disallow: 
 
 Sitemap: https://kwana-rising.ml/sitemap-ml.xml
+Sitemap: https://kwana-rising.ml/sitemap-ml1.xml
 Sitemap: https://kwana-rising.tk/sitemap-tk.xml
 Sitemap: https://kwana.tk/sitemap-tk1.xml

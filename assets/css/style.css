@@ -1734,6 +1734,7 @@ Navbar Area CSS
   li
   a.active {
   color: var(--mainColor);
+
 }
 
 .navbar-color-white
@@ -2032,6 +2033,8 @@ Navbar Area CSS
   }
   .dibiz-responsive-nav .dibiz-responsive-menu.mean-container .mean-nav ul {
     font-size: 15px;
+    overflow: auto;
+    
   }
   .dibiz-responsive-nav
     .dibiz-responsive-menu.mean-container
@@ -2057,6 +2060,7 @@ Navbar Area CSS
   }
   .dibiz-responsive-nav .mean-container a.meanmenu-reveal {
     color: var(--blackColor);
+    top:25px;
   }
   .dibiz-responsive-nav .mean-container a.meanmenu-reveal span {
     background: var(--blackColor);

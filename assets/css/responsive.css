@@ -1722,7 +1722,8 @@
     display: flex !important;
     position: absolute;
     right: 65px;
-    top: -1px;
+    top: 22px;
+    z-index: -1;
   }
   .dibiz-responsive-nav .container-fluid {
     max-width: 720px;
@@ -2562,7 +2563,8 @@
     display: flex !important;
     position: absolute;
     right: 65px;
-    top: -1px;
+    top: 22px;
+    z-index: -1;
   }
   .others-option-for-responsive {
     display: none;

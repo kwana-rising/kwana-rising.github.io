@@ -55,6 +55,7 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --fontFamily: "Nunito", sans-serif;
@@ -74,7 +75,8 @@ body {
   padding: 0;
   margin: 0;
   font-size: var(--fontSize);
-  font-family: var(--fontFamily);
+  /* font-family: var(--fontFamily); */
+  font-family: Inter, sans-serif;
 }
 
 * {
@@ -93,7 +95,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 a {
@@ -2139,11 +2141,6 @@ Navbar Area CSS
     font-size: 14px;
     font-weight: 600;
   }
-  .dibiz-responsive-nav .logo {
-    position: relative;
-    width: 60%;
-    z-index: 0;
-  }
   .dibiz-nav {
     display: none;
   }
@@ -2388,11 +2385,11 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   padding-top: 95px;
-  background-color: #fffbfb;
+  /* background-color: #fffbfb;
   background-image: url(../img/banner-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left center; */
 }
 
 .main-banner-area .container-fluid {
@@ -9841,7 +9838,8 @@ Checkout Area CSS
 Page Title Area CSS
 =================================================*/
 .page-title-area {
-  background-color: var(--blackColor);
+  /* background-color: #fff; */
+  background: linear-gradient(180deg, #ffffff, #e0f4ff);
   position: relative;
   z-index: 1;
   padding-bottom: 120px;
@@ -9874,7 +9872,7 @@ Page Title Area CSS
 
 .page-title-content h1 {
   margin-bottom: 0;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 45px;
 }
 
@@ -9895,7 +9893,7 @@ Page Title Area CSS
   height: 100%;
   top: 0;
   left: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
@@ -9907,7 +9905,7 @@ Page Title Area CSS
   width: 100%;
   top: -50%;
   left: 0;
-  background: -webkit-gradient(
+  background: --webkit-gradient(
     linear,
     left top,
     left bottom,
@@ -10845,10 +10843,6 @@ Coming Soon Area CSS
   margin-right: auto;
 }
 
-.coming-soon-content .logo {
-  display: inline-block;
-}
-
 .coming-soon-content h2 {
   font-size: 48px;
   margin-top: 30px;
@@ -11149,18 +11143,16 @@ Footer Area CSS
   padding-top: 100px;
   position: relative;
   z-index: 1;
-  background-color: #100f1f;
+  /* background-color: #f1faee; */
+  background-color: #e0f4ff;
 }
-
+.footer-area  * {
+  color: black !important;
+}
 .single-footer-widget {
   margin-bottom: 30px;
 }
 
-.single-footer-widget .logo {
-  margin-bottom: 20px;
-  font-size: 15px;
-  display: inline-block;
-}
 
 .single-footer-widget .social-link {
   padding-left: 0;
@@ -11278,7 +11270,7 @@ Footer Area CSS
 
 .footer-bottom-area {
   margin-top: 70px;
-  border-top: 1px solid #181726;
+  border-top: 1px solid #1d355744;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -11600,4 +11592,8 @@ Sidebar Modal CSS
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #1d3557; 
+}
+
+.logo {
+  width: 70%;
 }

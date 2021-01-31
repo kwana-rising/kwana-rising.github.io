@@ -1,3 +1,8 @@
+window.onload = function () {
+	$('.preloader-wrapper').fadeOut();
+	$('body').css({'overflow' : 'auto'});
+};
+
 (function($){
 	"use strict";
 
